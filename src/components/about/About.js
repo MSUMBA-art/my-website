@@ -37,7 +37,7 @@ const About = () => {
             </article>
             <article className="about-card">
               <BsGlobe className="about-icon" />
-              <h5>Projects</h5>
+              <h5>Some Projects</h5>
               <small>3 + years</small>
             </article>
           </div>

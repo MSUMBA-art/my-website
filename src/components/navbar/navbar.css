@@ -1,13 +1,13 @@
 nav {
   background-color: rgb(18, 14, 24);
   width: max-content;
-  /* display: block; */
+  display: block;
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: .1rem;
   display: flex;
   gap: .9rem;
   border-radius: 1rem;
@@ -15,9 +15,9 @@ nav {
 }
 
 nav a  {
-    background-color: transparent;
+    background-color: var(--color-bg);
     padding: 0.8rem;
-    border-radius: 50%;
+    border-radius: 10%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
@@ -30,4 +30,6 @@ nav a:hover {
 nav a.active {
     background-color: var(--color-bg);
 }
+
+
 
