@@ -46,7 +46,7 @@ const About = () => {
             elit, commodo eget malesuada eu, facilisis eleifend lorem. Class
             aptent taciti sociosqu ad litora torquent.
           </p>
-          <a href="#contacts" className="btn btn-primary"><MdContactless />Let's Talk</a>
+          <a href="#contact" className="btn btn-primary"><MdContactless />Let's Talk</a>
         </div>
       </div>
     </section>
