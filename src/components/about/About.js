@@ -5,7 +5,7 @@ import { SiHtml5 } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { GiSandsOfTime } from "react-icons/gi";
 import { MdContactless } from "react-icons/md";
-import {BsFillArrowRightCircleFill} from "react-icons/bs"
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 import React from "react";
 
@@ -47,33 +47,9 @@ const About = () => {
             variety of tech languages and frameworks. Works at fast pace to meet
             tight deadlines, eager to learn new concepts. Enthusiastic team
             player ready to contribute to company success. I have variety of
-            soft skills as well like:
-            <ul>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Scrum Methodology
-              </li>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Agile Workflow
-              </li>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Adaptive
-              </li>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Excellent Conceptual and Analytical Skills
-              </li>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Effective Interpersonal Skills
-              </li>
-              <li>
-                <BsFillArrowRightCircleFill className="list-icon" />
-                Team Work Player
-              </li>
-            </ul>
+            soft skills as well like: Agile Workflow, Scrum Methodology,
+            Adaptive, Excellent Conceptual and Analytical Skills, Effective
+            Interpersonal Skills, Team Work Player, just to mention few.
           </p>
           <a href="#contact" className="btn btn-primary">
             <MdContactless />
