@@ -1,12 +1,11 @@
 import "./portfolio.css";
 
-import React from 'react';
+import React from "react";
 import IMG1 from "../../assets/images/aj-3.jpg";
 import IMG2 from "../../assets/images/aj-4.jpg";
 import IMG3 from "../../assets/images/aj-8.jpg";
 import IMG4 from "../../assets/images/rsa.jpg";
 import IMG5 from "../../assets/images/7.jpg";
-
 
 const data = [
   {
@@ -17,18 +16,18 @@ const data = [
     demo: "https://loveyourcity.netlify.app/",
   },
   {
-    id: 2,
-    image: IMG4,
-    title: "Love Your City",
-    github: "https://github.com",
-    demo: "https://loveyourcity.netlify.app/",
-  },
-  {
     id: 3,
     image: IMG3,
-    title: "Love Your City",
-    github: "https://github.com",
-    demo: "https://loveyourcity.netlify.app/",
+    title: "Bootstrap/CSS Crush",
+    github: "https://github.com/MSUMBA-art/TinDog-Start",
+    demo: "https://alex-bootstrap-css.netlify.app/",
+  },
+  {
+    id: 2,
+    image: IMG4,
+    title: "Authentication Login Page",
+    github: "https://github.com/MSUMBA-art/Authentication-Login-page",
+    demo: "https://alexander-web-portfolio.netlify.app/",
   },
   {
     id: 4,
@@ -60,11 +59,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio-container">
-        
-        {
-         
-          data.map(({ id, image, title, github, demo }) => {
-            return (<article key={id} className="portfolio-item">
+        {data.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio-item">
               <div className="portfolio-item-image">
                 <img src={image} alt={title} />
               </div>
@@ -88,16 +85,11 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
-            )
-          })
-        }
-        
-
-        
+          );
+        })}
       </div>
     </section>
   );
-}
+};
 
-export default Portfolio
-
+export default Portfolio;
