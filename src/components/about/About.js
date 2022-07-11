@@ -5,7 +5,7 @@ import { SiHtml5 } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { GiSandsOfTime } from "react-icons/gi";
 import { MdContactless } from "react-icons/md";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
+// import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 import React from "react";
 
