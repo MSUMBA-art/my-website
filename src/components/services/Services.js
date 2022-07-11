@@ -17,50 +17,50 @@ const Services = () => {
           <ul className="services-list">
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>HTML , CSS, Bootstrap</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>JavaScript, ReactJs</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>Ejs, JQuery</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>Frontend Frameworks</p>
             </li>
-            <li>
+            {/* <li>
               <BsCheckAll size={30} className="service-list-icon" />
               <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
-            </li>
+            </li> */}
           </ul>
         </article>
         <article className="services">
           <div className="services-head">
-            <h3>Web Development</h3>
+            <h3>Backend Development</h3>
           </div>
           <ul className="services-list">
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>NodeJs</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>ExpressJs</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>REST API</p>
             </li>
-            <li>
+            {/* <li>
               <BsCheckAll size={30} className="service-list-icon" />
               <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
-            </li>
+            </li> */}
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>Problem Solving</p>
             </li>
           </ul>
         </article>
@@ -71,26 +71,30 @@ const Services = () => {
           <ul className="services-list">
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>PostgreSQL</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>MySQL</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>MongoDB</p>
             </li>
             <li>
               <BsCheckAll size={30} className="service-list-icon" />
-              <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
+              <p>Git Version Control</p>
             </li>
-            <li>
+            
+            {/* <li>
               <BsCheckAll size={30} className="service-list-icon" />
               <p>Lorem ipisum mry do jdw thgw yyyooopppkjh.</p>
-            </li>
+            </li> */}
+            
           </ul>
+
         </article>
+        
       </div>
     </section>
   );
